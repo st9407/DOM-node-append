@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>補聽系統程式碼修改</title>
+</head>
+
+<body style="font-size:24px; font-family:'微軟正黑體'">
+<form action="node.php" method="post">
+檔案名稱: <input type="text" name="file_name"  /> (ex:sun20150301)<br>
+話語名稱: <input type="text" name="word_name"  /> (ex:2015.03.01  主題)<br>
+話語類別: <select name="word_type" >
+ <option value="mor">晨更</option>
+  <option value="sun">主日</option>
+  <option value="wed">週三</option>
+  <option value="fri">週五</option>
+  <option value="lec">講訓</option>
+  <option value="sp">特講</option>
+  <option value="rev">啟示</option>
+  <option value="oth">其他</option>
+  <option value="r">老師的畫面</option>
+  <option value="tes">見證TV</option>
+
+</select><br>
+上傳類別: <input name="update_type[]" type="checkbox" value="-video" /><label>影像</label>
+        <input name="update_type[]" type="checkbox" value="-audio" /><label>錄音</label>
+        <input name="update_type[]" type="checkbox" value="-add" /><label>資料畫面</label><br>
+系統類別: <input name="system_type[]" type="checkbox" value="tinyd0" checked="checked" /><label>Windows</label>
+        <input name="system_type[]" type="checkbox" value="tinyd6" checked="checked" /><label>Android</label>
+        <input name="system_type[]" type="checkbox" value="tinyd1" checked="checked" /><label>iOS</label> <br> 
+<input type="submit" />        
+</form>
+
+
+</body>
+</html>

@@ -407,28 +407,12 @@ if($system_len=3)
 	  ios($update_type[$i]);	
 	}
 	echo '修改完成!';
-	echo "<br><a href='http://220.135.29.208:86/gracelight/modules/test/'>返回上一頁</a>";
+	echo "<br><a href='http://gracelight.ml/modules/test/'>返回上一頁</a>";
  }
 
 ?>
 
 
 <?php
-/*
-function getElementById($id)
-{
-    $xpath = new DOMXPath($this->domDocument);
-    return $xpath->query("//*[@id='$id']")->item(0);
-}
 
-
-appendNewChild($root_node,$node);
-
-function appendNewChild($currentNode, $node)  
-{  
-   $currentNode->appendChild($node);  
-} 
-
-
-*/
 ?>
